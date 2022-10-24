@@ -1,0 +1,8 @@
+# Spring Boot configuration
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://babar.db.elephantsql.com:5432/jzkxxjwc
+    username: ${PG_USER}
+    password: ${PG_PASSWORD}
+  # JPA properties
