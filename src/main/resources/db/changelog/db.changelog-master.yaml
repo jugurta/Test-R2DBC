@@ -4,7 +4,7 @@ databaseChangeLog:
       author: Liquibase
       changes:
         - createTable:
-            tableName: hello_world
+            tableName: demo_entity
             columns:
               - column:
                   name: test_column
@@ -12,4 +12,4 @@ databaseChangeLog:
                   constraints:
                     primaryKey:  true
                     nullable:  false
-                    tableName: test_table
+                    tableName: demo_entity
